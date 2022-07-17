@@ -32,6 +32,7 @@ end)
 
 sec:Button("Horrific Housing", function()
   loadstring(game:HttpGet('https://raw.githubusercontent.com/MrMcHir/SliperSex/main/Horrific%20Housing.lua'))()
+  SolarisLib:Destroy()
 end)
 
 sec:Button("Tower Of Hell", function()
