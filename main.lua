@@ -1,8 +1,5 @@
 local SolarisLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/sol"))()
 
-SolarisLib:Notification("Join Discord Bitch", "Discord Server Link Copied.")
-setclipboard("https://discord.gg/QKkeA7nBYY")
-
 local win = SolarisLib:New({
   Name = "Sex Loader",
   FolderToSave = "sliperLoader"
@@ -49,4 +46,3 @@ sec2:Button("Join Discord Server", function()
   setclipboard("https://discord.gg/QKkeA7nBYY")
   SolarisLib:Notification("Join", "Discord Server Link Copied")
 end)
-
