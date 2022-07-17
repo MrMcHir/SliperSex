@@ -20,12 +20,12 @@ local sec = tab:Section("Games Supported")
 
 sec:Button("Auto Game Search", function()
   if game.PlaceId == 263761432 then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/MrMcHir/SliperSex/main/Horrific%20Housing.lua'))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrMcHir/SliperSex/main/Horrific%20Housing.lua"))()
     SolarisLib:Notification("Game Finded", "Horrific Housing.")
   end
 
   if game.PlaceId == 1962086868 then
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/MrMcHir/SliperSex/main/TOH.lua'))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/MrMcHir/SliperSex/main/TOH.lua"))()
     SolarisLib:Notification("Game Finded", "Tower Of Hell.")
   end
 end)
